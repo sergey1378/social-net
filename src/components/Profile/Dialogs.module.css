@@ -1,0 +1,29 @@
+.items {
+    color: brown;
+}
+.items .active{
+    color: rgb(242, 203, 7);
+}
+.dialog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.dialogItems{
+    
+    padding: 10px;
+    background-color: rgb(127, 176, 255);
+}
+.messages{
+    background-color: antiquewhite;
+}
+
+.message{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
